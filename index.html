@@ -12,7 +12,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <style>
-    /* Light Theme */
+    .list-group-item {
+      padding: 10px 15px; /* Adjust padding for better spacing */
+      border-left: 3px solid #008080; /* Add a left border for visual appeal */
+    }
+
+    .list-group-item-action:hover, .list-group-item-action:focus {
+      background-color: #f0f0f0; /* Subtle hover effect */
+      color: #008080; /* Change text color on hover */
+    }
+
+    .list-group-item i {
+      float: right; /* Position icons to the right */
+    }
+
     body {
       background-color: #ffffff;
       color: #000000;
@@ -23,9 +36,15 @@
     }
 
     .navbar-brand {
-      color: #000000;
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      font-weight: 700;
     }
 
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
     .navbar-toggler-icon {
       background-color: #000000;
     }
@@ -72,12 +91,8 @@
     }
 
     /* Global font styles */
-    body, .nav-link, .card-text {
+    .nav-link, .card-text {
       font-family: 'Nunito', sans-serif;
-    }
-
-    .navbar-brand, .card-title, h2 {
-      font-family: 'Quicksand', sans-serif;
     }
 
     .nav-link {
@@ -120,12 +135,6 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#usability-testing">Usability Testing</a>
           </li>
           <li class="nav-item">
@@ -147,10 +156,45 @@
       <!-- Introduction Subsection -->
       <div class="card mb-3">
         <div class="card-body">
-          <h3 class="card-title">Introduction</h3>
-          <p class="card-text">This section provides an overview of my work in usability testing, focusing on enhancing user experiences in various digital platforms.</p>
+          <h3 class="card-title">Meet The Prototypers</h3>
+          <p class="card-text">Where UX research meets code for impactful experiences.</p>
         </div>
       </div>
+
+      <!-- Passionate About Subsection -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">We Are Passionate About...</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action">User-centered design and research <i class="fas fa-users"></i></li>
+            <li class="list-group-item list-group-item-action">Research, data, and empathy-driven solutions <i class="fas fa-chart-line"></i></li>
+            <li class="list-group-item list-group-item-action">Building accessible and inclusive digital experiences <i class="fas fa-universal-access"></i></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Journey Began Subsection -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Our Journey Began...</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action">By delving into the user worlds of <a href="https://www.metmuseum.org/">The Metropolitan Museum</a> and <a href="https://www.blissworld.com/">Bliss</a> through comprehensive UI/UX research and testing <i class="fas fa-search"></i></li>
+            <li class="list-group-item list-group-item-action">Honing our skills in user testing, interaction design, and information architecture <i class="fas fa-pencil-ruler"></i></li>
+            <li class="list-group-item list-group-item-action">Equipping ourselves to tackle real-world challenges and deliver solutions that resonate <i class="fas fa-tools"></i></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Meet James Beaupry Subsection -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Meet James Beaupry</h5>
+          <p class="card-text">
+            4th-year Software Engineering student at Miami University with a minor in Emerging Technologies in Business & Design. I wear two hats: one as a Web Accessibility Specialist at Miami University, actively championing inclusive digital spaces, and the other as a budding front-end developer and designer, eager to bring impactful experiences to life.
+          </p>
+        </div>
+      </div>
+
       <!-- Highlights of Results Subsection -->
       <div class="card mb-3">
         <div class="card-body">
@@ -180,6 +224,7 @@
           </div>
         </div>
       </div>
+
       <!-- What I Learned Subsection -->
       <div id="what-i-learned" class="card mb-3">
         <div class="card-body">
@@ -188,7 +233,7 @@
             This journey has taught me the importance of user feedback in design, the effectiveness of iterative testing, and the value of data-driven decision-making in UX.
           </p>
         </div>
-      
+
 
         <div class="card-body">
           <!-- Content for September -->
@@ -214,9 +259,9 @@
           <ul class="list-group mb-3">
             <li class="list-group-item">Preparing for presentation: compiling video recordings, capturing transcripts, and summarizing findings.</li>
             <li class="list-group-item">Writing up findings and recommendations for presentation, focusing on actionable insights for The Met.</li>
-            <li class="list-group-item">Finalizing presentations and practicing delivery (order: Team Labrador, Riley, C Team).</li>
-            <li class="list-group-item">Presenting usability testing findings to the class (Team Labrador, Riley, C Team).</li>
-            <li class="list-group-item">Continued presentations (Beech Babes, The Prototypers, Fancy Flamingos).</li>
+            <li class="list-group-item">Finalizing presentations and practicing delivery.</li>
+            <li class="list-group-item">Presenting usability testing findings to the class.</li>
+            <li class="list-group-item">Continued presentations.</li>
           </ul>
 
           <!-- Content for Late November-December -->
